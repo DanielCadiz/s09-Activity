@@ -55,9 +55,8 @@ switch (age) {
 }
 
 try {
-	if(age==age || age=="" || isNaN(age)) {
-		throw new Error('isLegalAge not defined');
-	}
+	isLegalAge('one')
+	throw new Error('isLegalAge not defined');
 	}catch(error){
 	console.warn(error.message);
 }finally{
