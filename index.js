@@ -23,7 +23,7 @@ let name = prompt("What is your name?");
 let age = parseInt(prompt("What is your age?"));
 
 
-if(name=="" || age=="" || isNaN(age)) {
+if(name=="" || isNaN(age)) {
 	alert('Are you a time traveler?');
 }else {
 	alert("Hello " + name + ". Your age is " + age);
